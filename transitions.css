@@ -1,0 +1,20 @@
+/* Transitions need a trigger in order to animate (i.e. hover) */
+body {
+	background: #333;
+}
+
+.box {
+	background: white;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin: auto;
+	top: 200px;
+	transition-property: background, border-radius;
+	transition-duration: 2s;
+}
+
+.box:hover{
+	background: red;
+	border-radius: 50%;
+}	
